@@ -74,7 +74,7 @@ p.emphasis{
 header{
     padding-top: 30px;
     padding-bottom: 6%;
-    background-color: white;
+        background-color: white;
 
 }
 
@@ -310,17 +310,13 @@ img.history{
     box-shadow: 20px 20px purple;
 }
 
-.history:hover{
-
-    box-shadow: 0px;
-}
-
 .column {
     padding: 20px;
   }
 
 div.history-div:nth-child(odd) div div.his-image img:hover {
     filter: grayscale(100%);
+
 }
 
 /* femdict section */
@@ -418,6 +414,10 @@ div.history-div:nth-child(odd) div div.his-image img:hover {
 
 div.content p{
     color: aliceblue;
+}
+
+div.item h2{
+    cursor: pointer;
 }
 
 /* page transition animations */
@@ -663,7 +663,7 @@ div ul li {
 
 div.item h2{
     font-size: 4rem;
-
+    cursor: pointer;
 }
 
 main{
